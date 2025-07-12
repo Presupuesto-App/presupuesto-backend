@@ -1,28 +1,45 @@
 # 💰 Presupuesto Inteligente API
 
-Backend desarrollado en Spring Boot para generar recomendaciones de presupuesto financiero mensual personalizado basado en el modelo 50/30/20 de Elizabeth Warren, adaptado según el perfil del usuario.
+Backend desarrollado en **Spring Boot** para generar recomendaciones de presupuesto financiero mensual **personalizado con IA simulada**, basado en el modelo **50/30/20 de Elizabeth Warren**, adaptado según el perfil único de cada usuario.
 
-## 🚀 Características
+✨ **¿Cansado de presupuestos genéricos?** Esta API utiliza algoritmos inteligentes que analizan tu estilo de vida, gastos y metas financieras para crear un presupuesto **100% personalizado** que realmente funcione para ti.
 
-- ✅ **Autenticación JWT** - Registro y login seguro
-- 🏠 **Recomendaciones personalizadas** - Basadas en tipo de vivienda, gastos y metas
-- 📊 **Modelo 50/30/20 adaptativo** - Ajustes inteligentes según respuestas del usuario
-- 📋 **Documentación Swagger** - API interactiva para pruebas
-- 🔒 **Spring Security** - Endpoints protegidos con JWT
-- 🗄️ **MySQL** - Persistencia de usuarios
+## 🚀 Características Destacadas
 
-## 🛠️ Tecnologías
+- 🔐 **Autenticación JWT** - Sistema de registro y login completamente seguro
+- 🏠 **Recomendaciones personalizadas** - Ajustes basados en vivienda, familia, transporte y hábitos
+- 📊 **Modelo 50/30/20 Evolutivo** - El framework clásico pero con inteligencia moderna
+- 📋 **Documentación Swagger** - API interactiva para pruebas en tiempo real
+- 🔒 **Spring Security 6.x** - Endpoints protegidos con las últimas prácticas de seguridad
+- 🗄️ **MySQL** - Base de datos robusta para persistencia de usuarios e historial
+- ⚡ **Clean Architecture** - Código mantenible siguiendo principios SOLID
 
-- **Java 17**
-- **Spring Boot 3.2.5**
-- **Spring Security 6.x**
-- **Spring Data JPA**
-- **MySQL 8.x**
-- **JWT (JJWT 0.12.x)**
-- **Swagger OpenAPI 3**
-- **Maven**
+## 🧠 ¿Cómo funciona la IA?
 
-## 📋 Requisitos
+Nuestro sistema analiza **8 variables clave** de tu perfil financiero:
+- 🏡 **Tipo de vivienda** (propia, alquilada, con hipoteca)
+- 👥 **Situación de convivencia** (solo, en pareja, con familia)
+- 👶 **Responsabilidades familiares** (hijos, dependientes)
+- 🚗 **Método de transporte** (carro propio, transporte público)
+- 🍽️ **Hábitos alimentarios** (frecuencia de comidas fuera)
+- 💰 **Metas de ahorro** (corto, mediano y largo plazo)
+- 🚨 **Situación de emergencia** (fondo de emergencia actual)
+- 💳 **Estado de deudas** (activas, en proceso de pago)
+
+Con estos datos, la IA ajusta dinámicamente los porcentajes del modelo 50/30/20, redistribuye categorías y crea un presupuesto que **evoluciona contigo**.
+
+## 🛠️ Stack Tecnológico
+
+- **☕ Java 17** - Lenguaje robusto y moderno
+- **🍃 Spring Boot 3.2.5** - Framework líder para APIs REST
+- **🛡️ Spring Security 6.x** - Seguridad de nivel enterprise
+- **🔗 Spring Data JPA** - ORM simplificado y potente
+- **🐬 MySQL 8.x** - Base de datos confiable y escalable
+- **🔑 JWT (JJWT 0.12.x)** - Autenticación stateless moderna
+- **📖 Swagger OpenAPI 3** - Documentación interactiva automática
+- **🔨 Maven** - Gestión de dependencias y build automation
+
+## 📋 Requisitos del Sistema
 
 - Java 17+
 - MySQL 8.0+
