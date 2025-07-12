@@ -1,0 +1,23 @@
+# Configuración de conexión a MySQL
+spring.datasource.url=jdbc:mysql://localhost:3306/presupuesto_db?useSSL=false&serverTimezone=UTC&createDatabaseIfNotExist=true
+spring.datasource.username=TU_USUARIO_MYSQL
+spring.datasource.password=TU_PASSWORD_MYSQL
+spring.datasource.driver-class-name=com.mysql.cj.jdbc.Driver
+
+# JPA y Hibernate
+spring.jpa.hibernate.ddl-auto=update
+spring.jpa.show-sql=true
+spring.jpa.properties.hibernate.dialect=org.hibernate.dialect.MySQL8Dialect
+spring.jpa.properties.hibernate.format_sql=true
+
+# Configuración JWT
+jwt.secret=TU_CLAVE_SECRETA_JWT_MUY_LARGA_Y_SEGURA_2025
+jwt.expiration=18000
+
+# Logging para debugging (opcional - remover en producción)
+logging.level.com.financia.presupuesto=DEBUG
+logging.level.org.springframework.web=DEBUG
+logging.level.org.hibernate.SQL=DEBUG
+
+# Puerto del servidor
+server.port=8080
