@@ -120,15 +120,6 @@ src/main/java/com/financia/presupuesto/
 └── config/              # Configuración global
 ```
 
-## 🧪 Testing
-
-```bash
-# Ejecutar tests
-mvn test
-
-# Ejecutar con coverage
-mvn test jacoco:report
-```
 
 ## 📝 Contribuir
 
@@ -144,4 +135,4 @@ Este proyecto está bajo la Licencia MIT.
 
 ## 👨‍💻 Autor
 
-Tu Nombre - [@tu_usuario](https://github.com/tu_usuario)
+Tu Nombre - [Luis Chinchihualpa @u202212112](https://github.com/u202212112)
