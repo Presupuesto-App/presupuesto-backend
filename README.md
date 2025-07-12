@@ -49,8 +49,8 @@ Con estos datos, la IA ajusta dinámicamente los porcentajes del modelo 50/30/20
 
 ### 1. Clonar el repositorio
 ```bash
-git clone <tu-repositorio>
-cd presupuesto-inteligente
+git clone https://github.com/Presupuesto-App/presupuesto-backend.git 
+cd presupuesto-backend
 ```
 
 ### 2. Configurar base de datos
