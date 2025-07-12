@@ -135,4 +135,4 @@ Este proyecto está bajo la Licencia MIT.
 
 ## 👨‍💻 Autor
 
-Tu Nombre - [Luis Chinchihualpa @u202212112](https://github.com/u202212112)
+[Luis Chinchihualpa @u202212112](https://github.com/u202212112)
